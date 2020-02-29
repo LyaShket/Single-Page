@@ -310,3 +310,15 @@ body {
         border-radius: 50%;
     }
 }
+
+.footer {
+    min-height: 47px;
+    background-color: #43a06d;
+    &__copyright {
+        line-height: 47px;
+        text-align: center;
+        @media(max-width: 767px) {
+            font-size: 12px;
+        }
+    }
+}  

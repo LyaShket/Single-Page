@@ -517,4 +517,20 @@ body {
   background: url("../images/contact/01.svg") 50% 50% no-repeat;
   border-radius: 50%;
 }
+
+.footer {
+  min-height: 47px;
+  background-color: #43a06d;
+}
+
+.footer__copyright {
+  line-height: 47px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
