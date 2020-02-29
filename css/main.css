@@ -320,7 +320,7 @@ body {
 }
 
 .section {
-  background-color: #5fc18b;
+  background: linear-gradient(166deg, #5fc18b 53%, #44a36f 53%, #44a36f 100%);
   padding: 86px 0 130px 0;
 }
 
