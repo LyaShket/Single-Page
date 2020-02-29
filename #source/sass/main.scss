@@ -14,10 +14,14 @@ body {
     margin: 0 auto;
 }
 .title {
-    
+    color: #ffffff;
+    font-size: 39px;
+    font-weight: 600;
 }
 .text {
-
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 23px;
 }
 /* ------------- */
 .home {
@@ -132,13 +136,20 @@ body {
         margin: 0 72px 0 0;
         display: flex;
         align-items: center;
+        max-width: 400px;
         @media(max-width: 767px) {
             margin: 0 0 30px 0;
+            max-width: 100%;
         }
     }
     &__photos {
         display: flex;
         align-items: center;
+        max-width: 400px;
+        @media(max-width: 767px) {
+            max-width: 0;
+            max-width: 100%;
+        }
     }
     &__image {
         margin: 0 29px 0 0;
@@ -158,4 +169,67 @@ body {
         font-size: 14px;
         line-height: 23px;
     }
+}
+
+.section {
+    background-color: #5fc18b;
+    padding: 86px 0 130px 0;
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 314px 0;
+        &__image {
+            margin: 0 0 35px 0;
+        }
+        &__content {
+        }
+        &__title {
+            margin: 0 0 36px 0;
+            text-align: center;
+        }
+        &__text {
+            margin: 0 0 50px 0;
+            max-width: 650px;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+    .section2 {
+        max-width: 840px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        &__image {
+            margin: 0 65px 0 0;
+        }
+        &__content {
+        }
+        &__title {
+            margin: 0 0 20px 0;
+        }
+        &__text {
+            margin: 0 0 42px 0;
+        }
+        &__button {
+            width: 196px;
+            height: 51px;
+            border: 3px solid #ffffff;
+            border-radius: 10px;
+            background-color: #0000;
+            /* Style for text */
+            color: #ffffff;
+            font-size: 27px;
+            font-weight: 600;
+            text-align: center;
+            transition: background-color 0.3s ease,
+                        color 0.3s ease;
+            &:hover {
+                cursor: pointer;
+                background-color: #ffffff;
+                color: #5fc18b;
+            }
+        }
+    }    
 }

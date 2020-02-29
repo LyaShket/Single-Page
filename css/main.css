@@ -90,6 +90,18 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  color: #ffffff;
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 23px;
+}
+
 /* ------------- */
 .home {
   background: url("../images/home/shadow.png") 50% 50% no-repeat, url("../images/home/bg.jpg") 50% 50% no-repeat;
@@ -251,11 +263,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 400px;
 }
 
 @media (max-width: 767px) {
   .boxes__documents {
     margin: 0 0 30px 0;
+    max-width: 100%;
   }
 }
 
@@ -266,6 +280,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 400px;
+}
+
+@media (max-width: 767px) {
+  .boxes__photos {
+    max-width: 0;
+    max-width: 100%;
+  }
 }
 
 .boxes__image {
@@ -295,5 +317,86 @@ body {
   color: #4f4e4e;
   font-size: 14px;
   line-height: 23px;
+}
+
+.section {
+  background-color: #5fc18b;
+  padding: 86px 0 130px 0;
+}
+
+.section .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 314px 0;
+}
+
+.section .section1__image {
+  margin: 0 0 35px 0;
+}
+
+.section .section1__title {
+  margin: 0 0 36px 0;
+  text-align: center;
+}
+
+.section .section1__text {
+  margin: 0 0 50px 0;
+  max-width: 650px;
+}
+
+.section .section1__text:last-child {
+  margin: 0;
+}
+
+.section .section2 {
+  max-width: 840px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.section .section2__image {
+  margin: 0 65px 0 0;
+}
+
+.section .section2__title {
+  margin: 0 0 20px 0;
+}
+
+.section .section2__text {
+  margin: 0 0 42px 0;
+}
+
+.section .section2__button {
+  width: 196px;
+  height: 51px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  background-color: #0000;
+  /* Style for text */
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.section .section2__button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #5fc18b;
 }
 /*# sourceMappingURL=main.css.map */
