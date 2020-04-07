@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ------------- */
 .home {
-  background: url("../images/home/shadow.png") 50% 50% no-repeat, url("../images/home/bg.jpg") 50% 50% no-repeat;
+  background: url("images/home/shadow.png") 50% 50% no-repeat, url("images/home/bg.jpg") 50% 50% no-repeat;
   background-size: cover;
   padding: 68px 0 0 0;
   height: 800px;
@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-  background: url("../images/contact/bg.jpg") 50% 50% no-repeat;
+  background: url("images/contact/bg.jpg") 50% 50% no-repeat;
   background-size: cover;
   padding: 161px 0 44px 0;
 }
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact__button {
   width: 66px;
   height: 66px;
-  background: url("../images/contact/01.svg") 50% 50% no-repeat;
+  background: url("images/contact/01.svg") 50% 50% no-repeat;
   border-radius: 50%;
 }
 
